@@ -124,7 +124,6 @@ object MonomorphicBinarySearch {
 }
 
 object PolymorphicFunctions {
-
   // Here's a polymorphic version of `binarySearch`, parameterized on
   // a function for testing whether an `A` is greater than another `A`.
   def binarySearch[A](as: Array[A], key: A, gt: (A,A) => Boolean): Int = {
